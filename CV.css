@@ -1,0 +1,130 @@
+/********************************GENERAL***/
+@font-face {
+    font-family: 'halohandletterregular';
+    src: url('font/halohandletter-webfont.woff2') format('woff2'),
+         url('font/halohandletter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('font/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('font/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{background: #dfe9ff;}
+
+body{
+	width: 780px;
+	margin: auto;	
+	font-family: Garamond;	
+	padding: 100px;
+	border-radius: 7px;
+	box-shadow: 2px 4px 3px black;
+}
+
+/************************************NAV***/
+ul{text-align:center;margin-top: -6px;}
+nav li{display:inline;}
+li{ 
+	background: white;
+	box-shadow: 2px 2px 1px #8e8e8e;
+	font-size:22px;
+	padding:6px;
+	margin:1px;
+	border-radius:0 0 5px 5px;
+}
+li:hover{	
+	box-shadow: 1px 1px 5px  rgba(0,0,0,0.6) inset;
+	border:0;				
+	color:#f39237;		
+}
+li a:hover{text-decoration:none; }
+
+/********************************CONTENT***/  
+.nom {
+	line-height: 80px;
+	padding:40px;
+	font-size:60px;
+	color: white;
+	text-align: center;
+	font-family: Helvetica Neue;
+	background-color: #355ca1;
+	border-radius: 2px;
+	box-shadow: 3px 4px 4px #8e8e8e;
+}
+.info{
+	line-height: 60px;
+	font-size:30px;
+	margin-top: 80px;
+	text-align: center;
+	color: #3388DD;	
+}
+
+
+.date{
+	float: left;
+	font-style: italic;
+	font-size: 28px;
+}
+.date p{
+	padding-top: 38px;
+	color: #355ca1;
+	padding-bottom: 140px;
+	margin-bottom: 32px;
+}
+
+.EXdate{
+	float: left;
+	font-style: italic;
+	font-size: 28px;
+}
+.EXdate p{
+	padding-top: 36px;
+	color: #355ca1;
+	padding-bottom: 134px;
+
+}
+
+.langue{
+	float: left;
+	font-style: italic;
+	font-size: 28px;
+}
+.langue p{
+	color: #355ca1;
+	padding-top: 28px;
+	padding-bottom: 140px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+.texte{
+	color: #355ca1;
+	margin-left: 180px;
+}
+.texte p{padding-top: 40px;padding-bottom: 140px;}
+
+strong{color: #3388DD;font-size: 1.3em;}
+
+h2{
+	text-transform: uppercase;
+	font-family: 'kaushan_scriptregular';
+	margin-top: 2em;
+	font-size: 2.2em;
+	color: #3388DD;
+	
+	border-bottom: 1px solid #3388DD;
+}
+h4{
+	text-shadow: 2px 0px 1px #3388DD;
+  color: #355ca1;
+	text-decoration:underline;
+
+	font-style: italic;
+	margin-top:2em;
+	text-align: center;
+	font-size:6em;
+	font-family: 'halohandletterregular';
+
+}
