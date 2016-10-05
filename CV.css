@@ -25,6 +25,12 @@ body{
 }
 
 /************************************NAV***/
+
+.active{
+	box-shadow: 1px 1px 5px  rgba(0,0,0,0.6) inset;
+	border:0;				
+	color:#f39237; }
+
 ul{text-align:center;margin-top: -6px;}
 nav li{display:inline;}
 li{ 
